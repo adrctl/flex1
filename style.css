@@ -1,0 +1,82 @@
+/* paletă culori: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d */
+
+body {
+    font-family: Arial;
+    background-color: #fff;
+	margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+	background-color:#588b8b;
+    color:#ffd5c2;
+}
+
+footer {
+    padding: 1px;
+    background-color:#c8553d;
+    color:#ffd5c2;
+    text-align: center;
+}
+
+main {
+    display: flex;
+
+}
+
+.main-content {
+    flex: 2;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 0px;
+}
+
+.news {
+    flex-direction: column;
+	list-style: none;
+    display: flex;
+	padding: 10px;
+    gap: 10px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #c8553d;
+	text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f28f3b;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration-form input {
+    width: 200px;
+	padding: 5px;
+}
+
+.registration-form button {
+    width: 150px;
+}
